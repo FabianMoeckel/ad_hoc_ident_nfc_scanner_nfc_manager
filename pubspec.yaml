@@ -1,0 +1,21 @@
+name: ad_hoc_ident_nfc_scanner_nfc_manager
+description: "Provides functionalities to read NFC tags as part of the ad_hoc_identity framework."
+version: 0.0.1-preview-1
+homepage: https://github.com/FabianMoeckel/ad_hoc_ident_nfc_scanner_nfc_manager
+repository: https://github.com/FabianMoeckel/ad_hoc_ident_nfc_scanner_nfc_manager
+
+environment:
+  sdk: '>=3.4.1 <4.0.0'
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  nfc_manager: ^3.5.0
+  ad_hoc_ident: ^0.0.1-preview-1
+  ad_hoc_ident_nfc: ^0.0.1-preview-1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
